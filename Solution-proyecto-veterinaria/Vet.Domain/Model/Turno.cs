@@ -8,5 +8,10 @@ namespace Vet.Domain.Model
 {
     class Turno
     {
+        public DateTime fecha { get; set; }
+        public Cliente cliente { get; set; }
+        public Mascota mascota { get; set; }
+        public Medico medico { get; set; }
+        public Room room { get; set; }
     }
 }
